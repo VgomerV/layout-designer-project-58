@@ -1,0 +1,20 @@
+{
+  "name": "project-cognitivs-distortions",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/VgomerV/layout-designer-project-58/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/VgomerV/layout-designer-project-58/actions)",
+  "main": "",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.2.0",
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-scss": "^4.4.0",
+    "surge": "^0.23.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VgomerV/layout-designer-project-58.git"
+  },
+  "author": "Gomer Vitaly",
+  "license": "ISC"
+}
