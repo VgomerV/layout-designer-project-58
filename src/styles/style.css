@@ -187,6 +187,11 @@ a {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
+.preview__footer {
+  height: 200px;
+  background-color: var(--primary-dark);
+}
+
 /* .nav {
   display: flex;
   column-gap: 30px;
