@@ -161,12 +161,16 @@ a {
 }
 
 .preview {
-  height: 730px;
+  height: 714px;
   text-align: center;
 }
 
 .preview__top {
   margin-bottom: 30px;
+}
+
+.preview__title {
+  margin-bottom: 27px;
 }
 
 .preview__img {
