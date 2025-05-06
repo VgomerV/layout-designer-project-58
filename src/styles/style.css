@@ -69,9 +69,12 @@ a {
 }
 
 .section {
-  position: relative;
   width: 1440px;
   margin: 0 auto;
+}
+
+.section--absolute {
+  position: relative;
 }
 
 .section--bg-light {
@@ -176,7 +179,8 @@ a {
 }
 
 .preview__img {
-  position: absolute;
+  display: block;
+  position: relative;
   right: 0;
   left: 0;
   margin: auto;
@@ -187,17 +191,12 @@ a {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-.preview__footer {
-  height: 200px;
-  background-color: var(--primary-dark);
-}
-
 .nav {
   display: flex;
   column-gap: 30px;
   row-gap: 20px;
   flex-wrap: wrap;
-  padding-top: 0;
+  padding-top: 200px;
 }
 
 .nav__cards-title {
