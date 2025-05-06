@@ -191,12 +191,18 @@ a {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
+.preview__footer {
+  width: 1440px;
+  height: 200px;
+  background-color: var(--primary-dark);
+}
+
 .nav {
   display: flex;
   column-gap: 30px;
   row-gap: 20px;
   flex-wrap: wrap;
-  padding-top: 199px;
+  padding-top: 0;
 }
 
 .nav__cards-title {
