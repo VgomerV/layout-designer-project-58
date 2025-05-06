@@ -165,12 +165,12 @@ a {
   text-align: center;
 }
 
-.preview__top {
-  margin-bottom: 30px;
-}
-
 .preview__title {
   margin-bottom: 27px;
+}
+
+.preview__text {
+  margin-bottom: 30px;
 }
 
 .preview__img {
