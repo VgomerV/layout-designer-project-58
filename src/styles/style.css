@@ -186,7 +186,8 @@ a {
 
 .nav {
   display: flex;
-  gap: 30px;
+  column-gap: 30px;
+  row-gap: 20px;
   flex-wrap: wrap;
 
   padding-top: 200px;
