@@ -69,6 +69,7 @@ a {
 }
 
 .section {
+  position: relative;
   width: 1440px;
   margin: 0 auto;
 }
@@ -163,6 +164,11 @@ a {
   background-color: #EA7600;
 }
 
+
+.section__preview {
+  position: relative;
+}
+
 .preview {
   position: relative;
   height: 747px;
@@ -178,9 +184,11 @@ a {
   margin-bottom: 30px;
 }
 
+
 .preview__img {
-  display: block;
   position: relative;
+  z-index: 100;
+  display: block;
   right: 0;
   left: 0;
   margin: auto;
@@ -192,8 +200,10 @@ a {
 }
 
 .preview__footer {
+  position: absolute;
+  z-index: 1;
   width: 1440px;
-  height: 200px;
+  height: 100px;
   background-color: var(--primary-dark);
 }
 
@@ -202,7 +212,7 @@ a {
   column-gap: 30px;
   row-gap: 20px;
   flex-wrap: wrap;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 .nav__cards-title {
