@@ -81,6 +81,10 @@ a {
   background-color: var(--light);
 }
 
+.section--bg-brown {
+  background-color: var(--brown);
+}
+
 .section--bg-primary-dark {
   background-color: var(--primary-dark);
 }
@@ -105,6 +109,10 @@ a {
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.section__container--fw {
+  color: var(--white);
 }
 
 .section__header {
@@ -144,6 +152,10 @@ a {
 
 .section__text--mb-16 {
   margin-bottom: 1em;  
+}
+
+.section__title--mb-30 {
+  margin-bottom: 30px;
 }
 
 .section__link {
@@ -244,4 +256,48 @@ a {
 .card:hover {
   background-color: var(--primary);
   color: var(--white);
+}
+
+.section__top {
+  display: flex;
+  column-gap: 30px;
+  margin-bottom: 100px;
+}
+
+.section__top--row-reverse {
+  flex-direction: row-reverse;
+}
+
+.section__name {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Neucha, sans-serif;
+}
+
+.section__name--fcdt {
+  color: var(--dark-transparen);
+}
+
+.section__name--fcwt {
+  color: var(--white-transparen);
+}
+
+.content__title {
+  column-span: all;
+
+  margin-bottom: 20px;
+  padding-left: 10px;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.content__title--light-theme {
+  background-color: var(--brown);
+  color: var(--white);
+}
+
+.content__title--brown-theme {
+  background-color: var(--white);
+  color: var(--brown);
 }
