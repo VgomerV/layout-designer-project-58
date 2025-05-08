@@ -69,12 +69,11 @@ a {
 }
 
 .section {
-  position: relative;
   width: 1440px;
   margin: 0 auto;
 }
 
-.section--absolute {
+.section--relative {
   position: relative;
 }
 
@@ -164,16 +163,20 @@ a {
   background-color: #EA7600;
 }
 
-
-.section__preview {
-  position: relative;
+.section--height {
+  height: 747px;
 }
 
 .preview {
   position: relative;
-  height: 747px;
+  height: 847px;
   padding-bottom: 0;
   text-align: center;
+}
+
+.preview__container {
+  height: 747px;
+  padding-bottom: 0;
 }
 
 .preview__title {
@@ -183,7 +186,6 @@ a {
 .preview__text {
   margin-bottom: 30px;
 }
-
 
 .preview__img {
   position: relative;
@@ -200,8 +202,6 @@ a {
 }
 
 .preview__footer {
-  position: absolute;
-  z-index: 1;
   width: 1440px;
   height: 100px;
   background-color: var(--primary-dark);
