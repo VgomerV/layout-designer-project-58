@@ -305,6 +305,7 @@ a {
 
 .footer {
   display: flex;
+  margin-top: 10px;
   background-color: var(--primary-dark);
 }
 
