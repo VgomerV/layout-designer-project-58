@@ -303,9 +303,12 @@ a {
   color: var(--brown);
 }
 
+.section--mt-13 {
+  margin-top: 13px;
+}
+
 .footer {
   display: flex;
-  margin-top: 10px;
   background-color: var(--primary-dark);
 }
 
