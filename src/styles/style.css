@@ -324,6 +324,7 @@ a {
 .footer__right {
   width: 50%;
   padding-top: 38px;
+  padding-left: 15px;
 }
 
 .form--flex {
