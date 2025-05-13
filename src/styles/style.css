@@ -240,7 +240,7 @@ a {
 .card {
   display: block;
   width: 350px;
-  padding: 23px;
+  padding: 24px;
 
   background-color: var(--light);
 }
