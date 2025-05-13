@@ -34,6 +34,11 @@
   padding: 0;
 }
 
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+
 body,
 a {
   font-weight: 400;
@@ -67,9 +72,9 @@ a {
   text-decoration: none;
 }
 
-/* .section {
-  margin: 0 auto;
-} */
+.section {
+  width: 100%;
+}
 
 .section--relative {
   position: relative;
