@@ -34,11 +34,6 @@
   padding: 0;
 }
 
-body {
-  width: 1440px;
-  margin: 0 auto;
-}
-
 body,
 a {
   font-weight: 400;
@@ -73,7 +68,7 @@ a {
 }
 
 .section {
-  width: 100%;
+  width: 1440px;
 }
 
 .section--relative {
