@@ -67,9 +67,10 @@ a {
   text-decoration: none;
 }
 
-/* .section {
+.section {
   width: 1440px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .section--relative {
@@ -404,11 +405,12 @@ a {
 .info__link {
   color: #1085c5;
   text-decoration: underline;
-} */
+}
 
-.section {
+/* .section {
   width: 1440px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .section--relative {
@@ -493,4 +495,4 @@ a {
 
 .header__link:hover {
   background-color: #EA7600;
-}
+} */
