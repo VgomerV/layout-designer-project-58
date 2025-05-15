@@ -69,6 +69,7 @@ a {
 
 .section {
   width: 1440px;
+  margin: 0 auto;
 }
 
 .section--relative {
@@ -403,4 +404,11 @@ a {
 .info__link {
   color: #1085c5;
   text-decoration: underline;
+}
+
+.test-section {
+  width: 1440px;
+  height: 914px;
+  margin: 0 auto;
+  background-color: var(--light);
 }
